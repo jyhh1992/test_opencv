@@ -9,7 +9,7 @@ import socket
 recevier = socket.socket(family=socket.AF_INET, type=socket.SOCK_DGRAM)
 # socket 통신준비
 
-recevier.bind('192.168.16.24', 7778)
+recevier.bind(('192.168.16.24', 7778))
 # 바인딩
 
 while True:
@@ -22,4 +22,3 @@ while True:
     print(message, '.',address)
 
 
-    
