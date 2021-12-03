@@ -1,0 +1,16 @@
+* 해보기 
+대상 : meg_receiver.py, meg_sender.py
+- basic setence 적용(basic_setence.py)
+- Exception 처리 (exception_01.py)
+ex) network 접속 불량 -> meg_sender.py
+- receiver 답변 답기
+ex) sender --> receiver --> sender(ok)
+
+* 더 해보기 
+- callback 적용(callback.py)
+ex) 메세지를 받을면 동작하는 function 작성
+
+* share source 
+대상 : https://github.com/SanghunOh/share_5GUAV_2020
+- receiver, sender : 본인 이름 파일 작성
+- sender(ssh 접속해 작성), receiver(본인 컴 작성)
